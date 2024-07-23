@@ -1,0 +1,123 @@
+*{
+    font-family: "Playfair Display", serif;
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --x:rgb(95, 32, 32);
+}
+#logo{
+    width: 100%;
+    height: 100px;
+}
+ul li{
+    font-size: 20px;
+}
+li i{
+    color: gainsboro;
+}
+#buttn{
+    background-color:var(--x);
+    color: white;
+}
+#buttn:hover{
+    background-color: white;
+    color: var(--x);
+    border-color: var(--x);
+
+}
+@media(max-width:992px){
+    .nav-item i{
+        display: none;
+    }
+}
+#main{
+    background-image: url(./images/theme.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    box-sizing: cover;
+    background-position: center;
+    background-size: contain;
+   
+    width: 100%;
+    
+}
+#welcome{
+    padding-top: 12%;
+    padding-left: 8%;
+}
+#welcome h4{
+    color: white;
+    font-size: 30px;
+}
+#welcome h1{
+    color: white;
+    font-size: 100px;
+}
+@media(max-width:600px){
+    #welcome h4{
+        font-size: 20px;
+    }
+}
+#welcome h1{
+    color: white;
+    font-size: 50px;
+}
+#work{
+    margin-top: 5%;
+    background-image: url(./images/backgrnd\ img.jpg);
+    padding-top: 5%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ div.viewbtn{
+    border-color: var(--x);
+    color: var(--x);
+}
+div.viewbtn:hover{
+    background-color: var(--x);
+    color: white;
+}
+#about{
+    background-color: rgba(222, 215, 215, 0.957);
+    padding: 10% 0px;
+    margin-right: 0px;
+    
+}
+#hr{
+    height: 0.4rem;
+    width: 10rem;
+    background-color: var(--x);
+}
+#about h1{
+    color: var(--x);
+
+}
+#about p{
+text-align: justify;
+}
+ #abimg{
+    border: 7px solid var(--x);
+    width: 100%;
+    height: 490px;
+    padding-top: 4%;
+    padding-left: 4%;
+ }
+ .projgdiv1{
+    width: 100%;
+    
+ }
+ 
+ 
+ 
+ .projgdiv2{
+    width:100% ;
+    height: 5%;
+    background-color: rgba(0, 0, 0, 0.849);
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 2%;
+ }
+ 
